@@ -1,0 +1,102 @@
+.div {
+  background: #f7f7f7;
+  height: 1024px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont {
+  margin: 0;
+  gap: 10px;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  border-radius: 40px;
+  margin: 0 auto;
+  background: #ffffff;
+  width: 60%;
+  gap: 10px;
+  padding: 40px;
+  flex-direction: column;
+  height: 50%;
+}
+
+.inputDiv {
+  margin-top: 20px;
+  display: flex;
+  border: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-family: "Inter-Bold";
+  font-size: 28px;
+  font-weight: 700;
+  color: #121214;
+}
+
+.desc {
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.input {
+  width: 45%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputPlace {
+  border: 1px solid #c8c8c8;
+  font-family: "Inter";
+  padding-left: 15px;
+  border-radius: 20px;
+  height: 50px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 70px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Inter";
+  color: #000;
+  width: 156px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid #d9d9d9;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.create {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Inter-Bold";
+  color: #fff;
+  width: 256px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid #5465ff;
+  justify-content: center;
+  background-color: #374bff;
+}
