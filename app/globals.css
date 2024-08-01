@@ -23,6 +23,15 @@
   src: url(/fonts/Inter-ExtraBold.ttf);
 }
 
-body {
-  background-color: white;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  background-color: #f1f7f7;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }

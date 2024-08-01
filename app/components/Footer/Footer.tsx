@@ -4,12 +4,14 @@ export const Footer = () => {
   return (
     <footer className={Style["footer"]}>
       <div className={Style["footer-container"]}>
-        <img
-          className={Style["footer-image"]}
-          src="/images/logo.png"
-          alt="Логотип SchoolBook"
-        />
-        <p className={Style["footer-bigtext"]}>Твой помощник Круглосуточно</p>
+        <div className={Style["big"]}>
+          <img
+            className={Style["footer-image"]}
+            src="/images/logo.svg"
+            alt="Логотип SchoolBook"
+          />
+          <p className={Style["footer-bigtext"]}>Твой помощник Круглосуточно</p>
+        </div>
         <div className={Style["footer-info"]}>
           <div className={Style["category"]}>
             <p className={Style["category-name"]}>Компания</p>
@@ -39,33 +41,34 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className={Style["footer-buttons"]}>
-          <img
-            className={Style["footer-button"]}
-            src="/images/socials.png"
-            alt=""
-          />
-          <img
-            className={Style["footer-button"]}
-            src="/images/socials-1.png"
-            alt=""
-          />
-          <img
-            className={Style["footer-button"]}
-            src="/images/socials-2.png"
-            alt=""
-          />
-          <img
-            className={Style["footer-button"]}
-            src="/images/socials-3.png"
-            alt=""
-          />
-          <img
-            className={Style["footer-button"]}
-            src="/images/socials-4.png"
-            alt=""
-          />
-        </div>
+      </div>
+
+      <div className={Style["footer-buttons"]}>
+        <img
+          className={Style["footer-button"]}
+          src="/images/socials.png"
+          alt=""
+        />
+        <img
+          className={Style["footer-button"]}
+          src="/images/socials-1.png"
+          alt=""
+        />
+        <img
+          className={Style["footer-button"]}
+          src="/images/socials-2.png"
+          alt=""
+        />
+        <img
+          className={Style["footer-button"]}
+          src="/images/socials-3.png"
+          alt=""
+        />
+        <img
+          className={Style["footer-button"]}
+          src="/images/socials-4.png"
+          alt=""
+        />
       </div>
       <h6 className={Style["footer-company"]}>AIR STUDIOS 2024</h6>
     </footer>

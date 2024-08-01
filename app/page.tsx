@@ -1,15 +1,15 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { Banner } from "./components/Banner/Banner";
+import { News } from "./components/news/News";
 
 export default function Home() {
   return (
     <>
-    <Header />
-        <Banner/>
-    <Footer />
+      <Header />
+      <Banner />
+      <News />
+      <Footer />
     </>
     /*
     <main className={styles.main}>

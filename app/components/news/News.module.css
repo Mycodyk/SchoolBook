@@ -1,0 +1,12 @@
+.news {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+}
+
+.news-title {
+  max-width: fit-content;
+  color: #00df82;
+  font-size: 20px;
+  text-decoration: underline;
+}

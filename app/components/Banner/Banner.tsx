@@ -4,6 +4,7 @@ import { Overlay } from "../Overlay/Overlay";
 import { FormIn } from "../SignIn/FormIn";
 import Style from "./Banner.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 export const Banner = () => {
   const [popUpIsOpened, setPopUpIsOpened] = useState(false);
@@ -31,20 +32,20 @@ export const Banner = () => {
             <li>Доступность</li>
             <li>Лёгкость</li>
             <li>Стабильность</li>
-            <li>Удобность</li>
+            <li>Удобство</li>
           </ul>
         </div>
         <a className={Style["registration"]} href="/sign/sigup">
           Регистрация
         </a>
-        <a className={Style["sign-in"]} onClick={openPopUp} href="#">
+        <Link className={Style["sign-in"]} onClick={openPopUp} href="/">
           Войти
-        </a>
-        <img
-          className={Style["banner-image"]}
-          src="/images/banner.png"
-          alt=""
-        />
+        </Link>
+        <div className={Style["banner-image"]}>
+          <p className={Style["support"]}>Поддержка</p>
+          <p className={Style["fast"]}>Быстродействие</p>
+          <p className={Style["reliability"]}>Надёжность</p>
+        </div>
       </div>
       <Overlay isOpened={popUpIsOpened} close={closePopUp} />
       <FormIn isOpened={popUpIsOpened} close={closePopUp} />

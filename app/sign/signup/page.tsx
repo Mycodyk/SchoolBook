@@ -1,6 +1,7 @@
 import React from "react";
-import { SignUp } from "@/app/components/SignUp/SignUp";
-import { FormUp } from "@/app/components/SignUp/FormUp";
+import { SignUp } from "../../components/SignUp/SignUp";
+import { FormUp } from "../../components/SignUp/FormUp";
+
 function SignUpPage() {
   return (
     <>

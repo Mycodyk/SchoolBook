@@ -1,16 +1,17 @@
 .footer {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
   max-width: 100%;
-  height: 270px;
   background-color: #021a1a;
   color: white;
+  padding: 20px 90px 20px 90px;
   border-radius: 20px;
 }
 
 .footer-container {
-  position: relative;
-  top: 20px;
-  left: 95px;
-  max-width: 1000px;
+  gap: 100px;
+  display: flex;
 }
 
 .footer-bigtext {
@@ -22,21 +23,27 @@
 
 .footer-info {
   display: flex;
+  align-items: center;
   flex-direction: row;
-  position: relative;
-  width: 509px;
-  left: 600px;
-  bottom: 190px;
-  gap: 60px;
+  gap: 100px;
+}
+
+.big {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.footer-image {
+  width: 90px;
+  height: 30px;
 }
 
 .footer-buttons {
+  text-align: center;
   display: flex;
   flex-direction: row;
   gap: 15px;
-  position: relative;
-  bottom: 165px;
-  width: 500px;
 }
 
 .footer-button {
@@ -45,10 +52,10 @@
 }
 
 .footer-company {
+  justify-content: center;
+  display: flex;
   font-size: 15px;
   color: white;
   font-weight: 600;
   text-align: center;
-  position: relative;
-  bottom: 200px;
 }
